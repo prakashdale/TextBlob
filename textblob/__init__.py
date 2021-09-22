@@ -3,7 +3,7 @@ from .blob import TextBlob, Word, Sentence, Blobber, WordList
 
 __version__ = '0.17.1'
 __license__ = 'MIT'
-__author__ = 'Steven Loria'
+__author__ = 'Prakash Dale'
 
 PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 
