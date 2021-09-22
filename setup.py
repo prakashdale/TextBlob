@@ -34,15 +34,15 @@ def read(fname):
 
 
 setup(
-    name='textblob',
+    name='pjdtextblob',
     version=__version__,
     description='Simple, Pythonic text processing. Sentiment analysis, '
                 'part-of-speech tagging, noun phrase parsing, and more.',
     long_description=read("README.rst"),
     license='MIT',
-    author='Steven Loria',
-    author_email='sloria1@gmail.com',
-    url='https://github.com/sloria/TextBlob',
+    author='Prakash Dale',
+    author_email='prakashdale@gmail.com',
+    url='https://github.com/prakashdale/TextBlob',
     install_requires=REQUIREMENTS,
     packages=find_packages(exclude=('test*', )),
     include_package_data=True,
